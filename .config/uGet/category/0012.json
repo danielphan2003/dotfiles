@@ -1,0 +1,178 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"doc",
+				" docx",
+				" xls",
+				" xlsx",
+				" ppt",
+				" pptx",
+				" pdf",
+				" csv"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Tài liệu",
+			"folder": "\/home\/danie\/Documents\/Main",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 487038,
+					"total": 487038,
+					"elapsed": 39,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582467920,
+					"completed-time": 1582467960,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/Keyamoon\/IcoMoon-Free\/blob\/master\/IcoMoon-Free.pdf",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "IcoMoon-Free.pdf",
+					"uri": "https:\/\/raw.githubusercontent.com\/Keyamoon\/IcoMoon-Free\/master\/IcoMoon-Free.pdf",
+					"file": "IcoMoon-Free.pdf",
+					"folder": "\/home\/danie\/Documents\/Main",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Documents\/Main\/IcoMoon-Free.pdf",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Documents\/Main\/IcoMoon-Free.pdf.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 30149,
+					"total": 30149,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581933345,
+					"completed-time": 1581933347,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/l.messenger.com\/l.php?u=https%3A%2F%2Fcdn.fbsbx.com%2Fv%2Ft59.2708-21%2F82452143_212594539934503_2724728631266902016_n.docx%2F%25C4%2590%25E1%25BB%2581-c%25C6%25B0%25C6%25A1ng-V%25E1%25BB%2599i-V%25C3%25A0ng.docx%3F_nc_cat%3D102%26_nc_ohc%3Dlb40wbWgm_UAX8wiZHk%26_nc_ht%3Dcdn.fbsbx.com%26oh%3Df9e09ea38cae58ad0c049ae5ae628389%26oe%3D5E4C9F42%26dl%3D1&h=AT076zLiiJQeAAacw9eGO5OHUexcfHD53QhnV5BUW52q5wN8i0WEEetE82y2Y63Zsl_eKU3qXOkv4YYFlrtnSO8MOeyX7IYTXg5DG08TfuFdVAhqPPlowktzziq_XF-e6Rhc7CPv",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Đề-cương-Vội-Vàng.docx",
+					"uri": "https:\/\/cdn.fbsbx.com\/v\/t59.2708-21\/82452143_212594539934503_2724728631266902016_n.docx\/%C4%90%E1%BB%81-c%C6%B0%C6%A1ng-V%E1%BB%99i-V%C3%A0ng.docx?_nc_cat=102&_nc_ohc=lb40wbWgm_UAX8wiZHk&_nc_ht=cdn.fbsbx.com&oh=f9e09ea38cae58ad0c049ae5ae628389&oe=5E4C9F42&dl=1",
+					"file": "Đề-cương-Vội-Vàng.docx",
+					"folder": "\/home\/danie\/Documents\/Main",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Documents\/Main\/Đề-cương-Vội-Vàng.docx",
+							"type": 0,
+							"state": 0,
+							"total": 30149,
+							"complete": 30149
+						},
+						{
+							"path": "\/home\/danie\/Documents\/Main\/Đề-cương-Vội-Vàng.docx.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

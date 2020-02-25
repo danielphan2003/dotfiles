@@ -1,0 +1,108 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"ttf",
+				"otf"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Phông chữ (TTF & OTF)",
+			"folder": "\/home\/danie\/Downloads\/Fonts",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 11724,
+					"total": 11724,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582465670,
+					"completed-time": 1582465678,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/raymond-w-ko\/creep2\/blob\/master\/creep2.ttf",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "creep2.ttf",
+					"uri": "https:\/\/raw.githubusercontent.com\/raymond-w-ko\/creep2\/master\/creep2.ttf",
+					"file": "creep2.ttf",
+					"folder": "\/home\/danie\/Downloads\/Fonts",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Fonts\/creep2.ttf",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Fonts\/creep2.ttf.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

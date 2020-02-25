@@ -1,0 +1,600 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"zip"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Dữ liệu nén (ZIP)",
+			"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 80747061,
+					"total": 80747061,
+					"elapsed": 21,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581867964,
+					"completed-time": 1581867986,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/stackoverflow.com\/questions\/47150410\/failed-to-run-sdkmanager-list-with-java-9#47150411",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/3EDBB2D6.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "commandlinetools-linux-5842447_latest.zip",
+					"uri": "https:\/\/dl.google.com\/android\/repository\/commandlinetools-linux-5842447_latest.zip",
+					"file": "commandlinetools-linux-5842447_latest.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/commandlinetools-linux-5842447_latest.zip",
+							"type": 0,
+							"state": 0,
+							"total": 80747061,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/commandlinetools-linux-5842447_latest.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 5529417,
+					"total": 5529417,
+					"elapsed": 9,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580235171,
+					"completed-time": 1580235180,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/opengapps.org\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Magisk-v20.3.zip",
+					"uri": "https:\/\/github-production-release-asset-2e65be.s3.amazonaws.com\/67702184\/744dac80-334c-11ea-913a-bd5e8fbae9a1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200128T181242Z&X-Amz-Expires=300&X-Amz-Signature=c2d15f057b5e9ce90d464946efba2bbdf202bf9d850f672797347fb9938bdd5e&X-Amz-SignedHeaders=host&actor_id=34669737&response-content-disposition=attachment%3B%20filename%3DMagisk-v20.3.zip&response-content-type=application%2Foctet-stream",
+					"file": "Magisk-v20.3.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/Magisk-v20.3.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/Magisk-v20.3.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 291844,
+					"total": 291844,
+					"elapsed": 11,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580234998,
+					"completed-time": 1580235010,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/opengapps.org\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "open_gapps-arm-7.1-pico-20200128.zip",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/opengapps\/arm\/20200128\/open_gapps-arm-7.1-pico-20200128.zip",
+					"file": "open_gapps-arm-7.1-pico-20200128.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-pico-20200128.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-pico-20200128.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 271446,
+					"total": 271446,
+					"elapsed": 7,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580234433,
+					"completed-time": 1580234441,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/opengapps.org\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "open_gapps-arm-7.1-pico-20200128.zip",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/opengapps\/arm\/20200128\/open_gapps-arm-7.1-pico-20200128.zip",
+					"file": "open_gapps-arm-7.1-pico-20200128.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-pico-20200128.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-pico-20200128.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 656,
+					"total": 656,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580087804,
+					"completed-time": 1580087806,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/androidfilehost.com\/?fid=6006931924117934179",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/2AC6CEBE.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Fix+MTK+Please+download+signed+image+(md1img-verified.img)+or+disable+verified+boot+.zip",
+					"uri": "https:\/\/va2.androidfilehost.com\/dl\/pQ_vJtQuqGgdUvdVcSf-RA\/1580318179\/6006931924117934179\/Fix+MTK+Please+download+signed+image+%28md1img-verified.img%29+or+disable+verified+boot+.zip",
+					"file": "Fix+MTK+Please+download+signed+image+(md1img-verified.img)+or+disable+verified+boot+.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/Fix+MTK+Please+download+signed+image+(md1img-verified.img)+or+disable+verified+boot+.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/Fix+MTK+Please+download+signed+image+(md1img-verified.img)+or+disable+verified+boot+.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1500336665,
+					"total": 1500336665,
+					"elapsed": 670,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580044028,
+					"completed-time": 1580046335,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/forum.xda-developers.com\/oppo-f1s\/how-to\/oppo-f1s-lollipop-firmware-t3625510",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "A1601EX_11_OTA_031_all_201705232152_local.zip",
+					"uri": "http:\/\/downloads.oppo.com.s3.amazonaws.com\/firmware\/A1601\/A1601EX_11_OTA_031_all_201705232152_local.zip",
+					"file": "A1601EX_11_OTA_031_all_201705232152_local.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/A1601EX_11_OTA_031_all_201705232152_local.zip",
+							"type": 0,
+							"state": 0,
+							"total": 1500336665,
+							"complete": 245366784
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/A1601EX_11_OTA_031_all_201705232152_local.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1498723295,
+					"total": 1498723295,
+					"elapsed": 752,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580042745,
+					"completed-time": 1580043498,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "moz-extension:\/\/74dc66bc-e9f2-4a32-89f6-77363b52a8e0\/pages\/cancel\/index.html?originURL=http%3A%2F%2Fdownloads.oppo.com.s3.amazonaws.com%2Ffirmware%2FA1601%2FA1601EX_11_OTA_027_all_201701110933_local.zip",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "A1601EX_11_OTA_027_all_201701110933_local.zip",
+					"uri": "http:\/\/downloads.oppo.com.s3.amazonaws.com\/firmware\/A1601\/A1601EX_11_OTA_027_all_201701110933_local.zip",
+					"file": "A1601EX_11_OTA_027_all_201701110933_local.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/A1601EX_11_OTA_027_all_201701110933_local.zip",
+							"type": 0,
+							"state": 0,
+							"total": 1498723295,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/A1601EX_11_OTA_027_all_201701110933_local.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1439306,
+					"total": 1439306,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580040413,
+					"completed-time": 1580040416,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.dropbox.com\/s\/ol78g6ifr7jrp56\/aromafm-1.91.zip?dl=0",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "aromafm-1.91.zip",
+					"uri": "https:\/\/uc9fd8754895f1a5566e996fe26c.dl.dropboxusercontent.com\/cd\/0\/get\/Aw7stAe4tf7e_WB6jhqRvykOPvDam85E_v6iIeV7cXJm7nk2X_FMSY-C2cVrjyaypPNVH5ytZ5YDwR-uouDRUGdLBwGrMlo6vYMopMShCsWR-unL_0SuIVlEviQBZup3r3E\/file?_download_id=8881948009207229712555626519978890043100275892510524600206079211&_notify_domain=www.dropbox.com&dl=1",
+					"file": "aromafm-1.91.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/aromafm-1.91.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/aromafm-1.91.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 160,
+					"priority": 1
+				},
+				"log": {
+					"added-time": 1580233804,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "No URI to download.",
+							"type": 3,
+							"time": 1580233805
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "flashable fix.zip",
+					"uri": "blob:https:\/\/mega.nz\/4abbbfc0-68af-4200-82ad-0bd6b34140fb",
+					"file": "flashable fix.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

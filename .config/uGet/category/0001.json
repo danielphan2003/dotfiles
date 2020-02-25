@@ -1,0 +1,109 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"mp4",
+				" mov"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Videos",
+			"folder": "\/home\/danie\/Downloads\/Video",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 521766203,
+					"total": 521766203,
+					"elapsed": 1517,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581837986,
+					"completed-time": 1581839503,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "http:\/\/www.phimmoi.net\/phim\/co-dau-ma-lam-dau-coi-am-10293\/tap-3-201133.html",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/22B381A7.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "videoplayback",
+					"uri": "https:\/\/r2---sn-8pxuuxa-nbozs.googlevideo.com\/videoplayback?id=1f63ac881dc76e05&itag=22&source=youtube&requiressl=yes&ei=a6FIXrWQOMOPW8jrv8AC&susc=ytcp&mime=video\/mp4&dur=3047.270&lmt=1581786513139905&txp=2211222&ip=0.0.0.0&ipbits=0&expire=1581847020&sparams=dur,ei,expire,id,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,mvi,pl,requiressl,source,susc&signature=278EABE11DC4073320150AE47657B7FBCF1BB5FE.28BF5944178F230AEBB7878DD5F8430DAA717AA8&key=cms1&cms_redirect=yes&mip=2402:800:637c:99b0:6935:c199:f548:1969&mm=31&mn=sn-8pxuuxa-nbozs&ms=au&mt=1581837599&mv=m&mvi=1&pl=48",
+					"file": "videoplayback",
+					"folder": "\/home\/danie\/Downloads\/Video",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Video\/videoplayback",
+							"type": 0,
+							"state": 0,
+							"total": 521766203,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Video\/videoplayback.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

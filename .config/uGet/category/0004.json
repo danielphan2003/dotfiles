@@ -1,0 +1,524 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"iso",
+				" img"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Dữ liệu nén (ISO & IMG)",
+			"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 5421459456,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1581760889,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "Out of resource",
+							"type": 3,
+							"time": 1581760890
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/download.com.vn\/download\/downloadurl?softwareid=84181",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/327F975B.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Win10_1909_English_x64.iso",
+					"uri": "http:\/\/fx.getpedia.net\/data\/2019\/11\/Win10_1909_English_x64.iso",
+					"file": "Win10_1909_English_x64.iso",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Win10_1909_English_x64.iso",
+							"type": 0,
+							"state": 0,
+							"total": 5421459456,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Win10_1909_English_x64.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 5421459456,
+					"elapsed": 28,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1581760704,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "Out of resource",
+							"type": 3,
+							"time": 1581760732
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.microsoft.com\/en-us\/software-download\/windows10ISO",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/327F975B.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Win10_1909_English_x64.1.iso",
+					"uri": "https:\/\/software-download.microsoft.com\/sg\/Win10_1909_English_x64.iso?t=ddeddc78-2a7a-4de4-b9ac-a04bb149a104&e=1581847073&h=66f73d664575a97ee980a47d7f543c81",
+					"file": "Win10_1909_English_x64.1.iso",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Win10_1909_English_x64.1.iso",
+							"type": 0,
+							"state": 0,
+							"total": 5421459456,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Win10_1909_English_x64.1.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 371732480,
+					"total": 371732480,
+					"elapsed": 954,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581756067,
+					"completed-time": 1581757022,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/blog.bepbep.co\/posts\/gvt\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "virtio-win-0.1.171.iso",
+					"uri": "https:\/\/fedorapeople.org\/groups\/virt\/virtio-win\/direct-downloads\/archive-virtio\/virtio-win-0.1.171-1\/virtio-win-0.1.171.iso",
+					"file": "virtio-win-0.1.171.iso",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/virtio-win-0.1.171.iso",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/virtio-win-0.1.171.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1514143744,
+					"total": 1514143744,
+					"elapsed": 725,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581697071,
+					"completed-time": 1581697797,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/sourceforge.net\/projects\/blissos-x86\/files\/Official\/bleeding_edge\/Generic%20builds%20-%20Pie\/Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms.iso\/download",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms(1).iso",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/blissos-x86\/Official\/bleeding_edge\/Generic%20builds%20-%20Pie\/Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms.iso",
+					"file": "Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms(1).iso",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms(1).iso",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/Bliss-v11.10--OFFICIAL-20191214-2253_x86_64_k-k4.19.50-ax86-ga_m-18.3.5-pie-x86-llvm80_ld-2.4.99-ma-p_dg-pie-x86_dh-undefined_gms(1).iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 372244480,
+					"total": 372244480,
+					"elapsed": 178,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580069066,
+					"completed-time": 1580069245,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/sourceforge.net\/projects\/gparted\/files\/gparted-live-stable\/1.1.0-1\/gparted-live-1.1.0-1-amd64.iso\/download?use_mirror=nchc",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "gparted-live-1.1.0-1-amd64.iso",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/gparted\/gparted-live-stable\/1.1.0-1\/gparted-live-1.1.0-1-amd64.iso",
+					"file": "gparted-live-1.1.0-1-amd64.iso",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/gparted-live-1.1.0-1-amd64.iso",
+							"type": 0,
+							"state": 0,
+							"total": 372244480,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/gparted-live-1.1.0-1-amd64.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 135735,
+					"total": 135735,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580043016,
+					"completed-time": 1580043021,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.4shared.com\/get\/Ui_J61hHba\/OPPO_F1s_mt6750_twrp303-0_reco.html?simpleLogin=true&startDownload=true",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/2BECC00.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "OPPO_F1s_mt6750_twrp3.0.3-0_recovery.img",
+					"uri": "https:\/\/dc704.4shared.com\/download\/Ui_J61hHba\/OPPO_F1s_mt6750_twrp303-0_reco.img?tsid=20200126-124933-28938001&sbsr=7f8571eb57a29c13456122ade6ab702ca34&bip=MTcxLjI1MC4xMTQuMjE3&lgfp=30",
+					"file": "OPPO_F1s_mt6750_twrp3.0.3-0_recovery.img",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/OPPO_F1s_mt6750_twrp3.0.3-0_recovery.img",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/OPPO_F1s_mt6750_twrp3.0.3-0_recovery.img.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 160,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 677380096,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1581702108,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "aria2: file already existed. See --allow-overwrite option.",
+							"type": 3,
+							"time": 1581747430
+						}
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.archlinux.org\/download\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/24D848C5.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "archlinux-2020.02.01-x86_64.iso.torrent",
+					"uri": "\/home\/danie\/Downloads\/Compressed\/ISO\/archlinux-2020.02.01-x86_64.iso.torrent",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ISO",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/archlinux-2020.02.01-x86_64.iso",
+							"type": 0,
+							"state": 0,
+							"total": 677380096,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/archlinux-2020.02.01-x86_64.iso.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/archlinux-2020.02.01-x86_64.iso.torrent",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ISO\/archlinux-2020.02.01-x86_64.iso.torrent.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

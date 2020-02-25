@@ -1,0 +1,184 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"cpp",
+				"c",
+				"h",
+				"hpp",
+				"pas",
+				"py",
+				"lua",
+				"js",
+				"jsx",
+				"ts",
+				"tsx",
+				"dart",
+				"json",
+				"jsonc"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Code",
+			"folder": "\/home\/danie\/Downloads\/Code",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1409819,
+					"total": 1409819,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582464070,
+					"completed-time": 1582464073,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/github.com\/kreativekorp\/bitsnpicas\/blob\/master\/downloads\/BitsNPicas.jar",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "BitsNPicas.jar",
+					"uri": "https:\/\/raw.githubusercontent.com\/kreativekorp\/bitsnpicas\/master\/downloads\/BitsNPicas.jar",
+					"file": "BitsNPicas.jar",
+					"folder": "\/home\/danie\/Downloads\/Code",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/BitsNPicas.jar",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/BitsNPicas.jar.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 4774,
+					"total": 4774,
+					"elapsed": 2,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581758744,
+					"completed-time": 1581758746,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/blog.bepbep.co\/posts\/gvt\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "PKGBUILD",
+					"uri": "https:\/\/blog.bepbep.co\/posts\/gvt\/PKGBUILD",
+					"file": "PKGBUILD",
+					"folder": "\/home\/danie\/Downloads\/Code",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/PKGBUILD",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/PKGBUILD.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

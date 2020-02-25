@@ -1,0 +1,108 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"rar"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Dữ liệu nén (RAR)",
+			"folder": "\/home\/danie\/Downloads\/Compressed\/RAR",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 1445011617,
+					"total": 1445011617,
+					"elapsed": 2213,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580083042,
+					"completed-time": 1580085255,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/androidfilehost.com\/?fid=673368273298987126",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/345EEAA.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "A1601EX_11_A.24_161119.rar",
+					"uri": "https:\/\/qc4.androidfilehost.com\/dl\/mNiRsISKIgUWJ_MiyMSusA\/1580313431\/673368273298987126\/A1601EX_11_A.24_161119.rar",
+					"file": "A1601EX_11_A.24_161119.rar",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/RAR",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/RAR\/A1601EX_11_A.24_161119.rar",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/RAR\/A1601EX_11_A.24_161119.rar.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

@@ -1,0 +1,108 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"7z"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Dữ liệu nén (7Z)",
+			"folder": "\/home\/danie\/Downloads\/Compressed\/7Z",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 670239626,
+					"total": 670239626,
+					"elapsed": 408,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581956943,
+					"completed-time": 1581957351,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/sourceforge.net\/projects\/osboxes\/files\/v\/vb\/1-A-d\/8.1-r3\/Ax86_8-1_r3-VB-64bit.7z\/download",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/4F94A219.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Ax86_8-1_r3-VB-64bit.7z",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/osboxes\/v\/vb\/1-A-d\/8.1-r3\/Ax86_8-1_r3-VB-64bit.7z",
+					"file": "Ax86_8-1_r3-VB-64bit.7z",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/7Z",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/7Z\/Ax86_8-1_r3-VB-64bit.7z",
+							"type": 0,
+							"state": 0,
+							"total": 670239626,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/7Z\/Ax86_8-1_r3-VB-64bit.7z.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

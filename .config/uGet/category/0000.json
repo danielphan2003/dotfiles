@@ -1,0 +1,1167 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+			],
+			"schemes": [
+			],
+			"file-exts": [
+				"jpg",
+				" jpeg",
+				" png",
+				" dng",
+				" raw",
+				" ico"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"http": {
+			"redirection-limit": 30
+		},
+		"proxy": {
+			"port": 80,
+			"type": 0
+		},
+		"common": {
+			"name": "Ảnh",
+			"folder": "\/home\/danie\/Downloads\/Photos",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"log": {
+					"added-time": 1582189168,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "No URI to download.",
+							"type": 3,
+							"time": 1582189168
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "imageonline-co-invertedimage.png",
+					"uri": "blob:https:\/\/www.invert.imageonline.co\/e40bd6b8-92e4-4fd6-811e-b4d977b61d0f",
+					"file": "imageonline-co-invertedimage.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 3552104,
+					"total": 3552104,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582602507,
+					"completed-time": 1582602511,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.deviantart.com\/aenami\/art\/Timeless-736874955",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "timeless_by_aenami_dc6pscr.png",
+					"uri": "https:\/\/api-da.wixmp.com\/_api\/download\/file?downloadToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImV4cCI6MTU4MjYwMzEwMiwiaWF0IjoxNTgyNjAyNDkyLCJqdGkiOiI1ZTU0OTkwNjAyYWU4Iiwib2JqIjpudWxsLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdLCJwYXlsb2FkIjp7InBhdGgiOiJcL2ZcLzFhMjRmYzAzLTBkNTEtNDJkYy05MGZhLThhYmNiNmIxZTc2YVwvZGM2cHNjci1mODA2MjAyZS1lY2YxLTRhMDctODZkNC0xMzM0ZGJhNWNiMGIucG5nIiwiYXR0YWNobWVudCI6eyJmaWxlbmFtZSI6InRpbWVsZXNzX2J5X2FlbmFtaV9kYzZwc2NyLnBuZyJ9fX0.QLfx6G3oTAbmfVZPDXYcgmaPWd1R9iMtzZXpLXIUGpY",
+					"file": "timeless_by_aenami_dc6pscr.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/timeless_by_aenami_dc6pscr.png",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/timeless_by_aenami_dc6pscr.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 3294027,
+					"total": 3294027,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582602486,
+					"completed-time": 1582602491,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.deviantart.com\/aenami\/art\/Horizon-799474884",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "horizon_by_aenami_dd7ziro.png",
+					"uri": "https:\/\/api-da.wixmp.com\/_api\/download\/file?downloadToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImV4cCI6MTU4MjYwMzA4MiwiaWF0IjoxNTgyNjAyNDcyLCJqdGkiOiI1ZTU0OThmMjExZGQwIiwib2JqIjpudWxsLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdLCJwYXlsb2FkIjp7InBhdGgiOiJcL2ZcLzFhMjRmYzAzLTBkNTEtNDJkYy05MGZhLThhYmNiNmIxZTc2YVwvZGQ3emlyby1jZjRkN2EwZC02YjI3LTQxZjUtYTk2MS0wZjZlZmM4ZTZhMjEucG5nIiwiYXR0YWNobWVudCI6eyJmaWxlbmFtZSI6Imhvcml6b25fYnlfYWVuYW1pX2RkN3ppcm8ucG5nIn19fQ.oBch777HKjD5T7aBtGL1wVqJy7_aJjq0rpnlUxiMc8c",
+					"file": "horizon_by_aenami_dd7ziro.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/horizon_by_aenami_dd7ziro.png",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/horizon_by_aenami_dd7ziro.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 3458750,
+					"total": 3458750,
+					"elapsed": 4,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582602467,
+					"completed-time": 1582602471,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.deviantart.com\/aenami\/art\/7-p-m-650032519",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "7_p_m__by_aenami_dar0gav.png",
+					"uri": "https:\/\/api-da.wixmp.com\/_api\/download\/file?downloadToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImV4cCI6MTU4MjYwMzA2MSwiaWF0IjoxNTgyNjAyNDUxLCJqdGkiOiI1ZTU0OThkZDNjZTcyIiwib2JqIjpudWxsLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdLCJwYXlsb2FkIjp7InBhdGgiOiJcL2ZcLzFhMjRmYzAzLTBkNTEtNDJkYy05MGZhLThhYmNiNmIxZTc2YVwvZGFyMGdhdi04ZTQ1NDg5Mi03ZTExLTQzYmQtYTdmNS03ZjNlYWQ4ODkyNjgucG5nIiwiYXR0YWNobWVudCI6eyJmaWxlbmFtZSI6IjdfcF9tX19ieV9hZW5hbWlfZGFyMGdhdi5wbmcifX19.1rNJOONHYqP7IdViFoW6g2fFafygAesMthcRGLMSPZs",
+					"file": "7_p_m__by_aenami_dar0gav.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/7_p_m__by_aenami_dar0gav.png",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/7_p_m__by_aenami_dar0gav.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 82677,
+					"total": 82677,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582600860,
+					"completed-time": 1582600861,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "85159997_2242984149340739_6540528729817350144_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-6.fna.fbcdn.net\/v\/t1.0-9\/85159997_2242984149340739_6540528729817350144_n.jpg?_nc_cat=109&_nc_sid=a61e81&_nc_ohc=pHHzOJaMiqwAX8TT1OH&_nc_ht=scontent.fsgn5-6.fna&oh=50ad34fbf6e14192285e19d87d8d14cf&oe=5F035784",
+					"file": "85159997_2242984149340739_6540528729817350144_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85159997_2242984149340739_6540528729817350144_n.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 82677,
+							"complete": 82677
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85159997_2242984149340739_6540528729817350144_n.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 96712,
+					"total": 96712,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1582543179,
+					"completed-time": 1582543180,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "85155440_2873536209334365_7914132332766822400_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-4.fna.fbcdn.net\/v\/t1.0-9\/85155440_2873536209334365_7914132332766822400_n.jpg?_nc_cat=104&_nc_sid=a61e81&_nc_ohc=6-c6ACOFS3EAX-q2ZhS&_nc_ht=scontent.fsgn5-4.fna&oh=57771defa791fef4809c9448b4a50712&oe=5EF52879",
+					"file": "85155440_2873536209334365_7914132332766822400_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85155440_2873536209334365_7914132332766822400_n.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 96712,
+							"complete": 96712
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85155440_2873536209334365_7914132332766822400_n.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 56033,
+					"total": 56033,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581858159,
+					"completed-time": 1581858161,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "86625257_919169388499239_6231442469217632256_o.jpg",
+					"uri": "https:\/\/scontent-hkg3-2.xx.fbcdn.net\/v\/t1.0-9\/s960x960\/86625257_919169388499239_6231442469217632256_o.jpg?_nc_cat=111&_nc_ohc=8DZELBergxcAX8CQjhO&_nc_ht=scontent-hkg3-2.xx&_nc_tp=7&oh=f951d5f659e71720cf25db7796c56175&oe=5ECB7543",
+					"file": "86625257_919169388499239_6231442469217632256_o.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/86625257_919169388499239_6231442469217632256_o.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 56033,
+							"complete": 56033
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/86625257_919169388499239_6231442469217632256_o.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 126275,
+					"total": 126275,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581838213,
+					"completed-time": 1581838214,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "86465183_496410511022315_1807754505140305920_o.jpg",
+					"uri": "https:\/\/scontent.fsgn5-5.fna.fbcdn.net\/v\/t1.0-9\/86465183_496410511022315_1807754505140305920_o.jpg?_nc_cat=100&_nc_ohc=DYFcn55dzKQAX_3BbXm&_nc_ht=scontent.fsgn5-5.fna&oh=c02b7665e136cf8d083014ef07bf4fee&oe=5EC2270C",
+					"file": "86465183_496410511022315_1807754505140305920_o.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/86465183_496410511022315_1807754505140305920_o.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 126275,
+							"complete": 126275
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/86465183_496410511022315_1807754505140305920_o.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 52733,
+					"total": 52733,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581576447,
+					"completed-time": 1581576448,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "84140282_483073342637374_4558523003431813120_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-4.fna.fbcdn.net\/v\/t1.0-9\/84140282_483073342637374_4558523003431813120_n.jpg?_nc_cat=102&_nc_ohc=GQhhGSYtn7MAX-riHdM&_nc_ht=scontent.fsgn5-4.fna&oh=7f40239ff35b306dd695e14d540c8a1b&oe=5ECA79BF",
+					"file": "84140282_483073342637374_4558523003431813120_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84140282_483073342637374_4558523003431813120_n.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 52733,
+							"complete": 52733
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84140282_483073342637374_4558523003431813120_n.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 54780,
+					"total": 54780,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581575729,
+					"completed-time": 1581575731,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "85071050_1821225701344193_2107892729659785216_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-4.fna.fbcdn.net\/v\/t1.0-9\/85071050_1821225701344193_2107892729659785216_n.jpg?_nc_cat=104&_nc_ohc=4dhYk-EMaU8AX_LZ__c&_nc_ht=scontent.fsgn5-4.fna&oh=452829f640653814ace285afc864983e&oe=5EB4DED7",
+					"file": "85071050_1821225701344193_2107892729659785216_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85071050_1821225701344193_2107892729659785216_n.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 54780,
+							"complete": 54780
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85071050_1821225701344193_2107892729659785216_n.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 98151,
+					"total": 98151,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581575000,
+					"completed-time": 1581575002,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "84668436_189077352472314_2427045388578979840_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-3.fna.fbcdn.net\/v\/t1.0-9\/84668436_189077352472314_2427045388578979840_n.jpg?_nc_cat=110&_nc_ohc=cKZ5Dc7FzccAX_XbFlK&_nc_ht=scontent.fsgn5-3.fna&oh=e35f2afccb66ed406145a9e9ef756c1e&oe=5F026F0C",
+					"file": "84668436_189077352472314_2427045388578979840_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84668436_189077352472314_2427045388578979840_n.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 98151,
+							"complete": 98151
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84668436_189077352472314_2427045388578979840_n.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 2661408,
+					"total": 2661408,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581479827,
+					"completed-time": 1581479829,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.messenger.com\/t\/100009542305072",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "85156166_1084731011879575_2612253951864602624_n-1.png",
+					"uri": "https:\/\/scontent.fsgn5-5.fna.fbcdn.net\/v\/t1.15752-9\/85156166_1084731011879575_2612253951864602624_n.png?_nc_cat=100&_nc_ohc=WTXfgh8e0_EAX_w2tK8&_nc_ht=scontent.fsgn5-5.fna&oh=bc9795ae4b33ea514d80ef2ad151cd97&oe=5EC40D59&dl=1",
+					"file": "85156166_1084731011879575_2612253951864602624_n-1.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85156166_1084731011879575_2612253951864602624_n-1.png",
+							"type": 0,
+							"state": 0,
+							"total": 2661408,
+							"complete": 2661408
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85156166_1084731011879575_2612253951864602624_n-1.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 2661408,
+					"total": 2661408,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581479504,
+					"completed-time": 1581479506,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.messenger.com\/t\/100009542305072",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "85156166_1084731011879575_2612253951864602624_n.png",
+					"uri": "https:\/\/scontent.fsgn5-5.fna.fbcdn.net\/v\/t1.15752-9\/85156166_1084731011879575_2612253951864602624_n.png?_nc_cat=100&_nc_ohc=WTXfgh8e0_EAX_w2tK8&_nc_ht=scontent.fsgn5-5.fna&oh=bc9795ae4b33ea514d80ef2ad151cd97&oe=5EC40D59&dl=1",
+					"file": "85156166_1084731011879575_2612253951864602624_n.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85156166_1084731011879575_2612253951864602624_n.png",
+							"type": 0,
+							"state": 0,
+							"total": 2661408,
+							"complete": 2661408
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/85156166_1084731011879575_2612253951864602624_n.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 56255,
+					"total": 56255,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581203401,
+					"completed-time": 1581203402,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "84332802_188826752524366_8506350843337900032_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-3.fna.fbcdn.net\/v\/t1.0-9\/84332802_188826752524366_8506350843337900032_n.jpg?_nc_cat=110&_nc_ohc=U8QVDZWX1CcAX810j-v&_nc_ht=scontent.fsgn5-3.fna&oh=63df24009979f00de05e606250fb91bf&oe=5EC02AC1",
+					"file": "84332802_188826752524366_8506350843337900032_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84332802_188826752524366_8506350843337900032_n.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 56255,
+							"complete": 56255
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84332802_188826752524366_8506350843337900032_n.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 44251,
+					"total": 44251,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581117483,
+					"completed-time": 1581117485,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "84967654_644330939657491_4477225461566406656_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-3.fna.fbcdn.net\/v\/t1.0-9\/84967654_644330939657491_4477225461566406656_n.jpg?_nc_cat=110&_nc_ohc=ov_eU-wcUPAAX9X7qfV&_nc_ht=scontent.fsgn5-3.fna&oh=f022c76fc88aa08d74c508cf34490cd7&oe=5ED3B69D",
+					"file": "84967654_644330939657491_4477225461566406656_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84967654_644330939657491_4477225461566406656_n.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 44251,
+							"complete": 44251
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/84967654_644330939657491_4477225461566406656_n.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 160577,
+					"total": 160577,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1581111629,
+					"completed-time": 1581111631,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "83491160_199030804620793_2623297386524442624_n.jpg",
+					"uri": "https:\/\/scontent.fsgn5-3.fna.fbcdn.net\/v\/t1.0-9\/83491160_199030804620793_2623297386524442624_n.jpg?_nc_cat=110&_nc_ohc=L8Arj5cln9QAX8PE1k7&_nc_ht=scontent.fsgn5-3.fna&oh=dcdc7b134e3f64e478054dc1c5cc83f0&oe=5ED08C73",
+					"file": "83491160_199030804620793_2623297386524442624_n.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/83491160_199030804620793_2623297386524442624_n.1.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 160577,
+							"complete": 160577
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/83491160_199030804620793_2623297386524442624_n.1.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 326728,
+					"total": 326728,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580909816,
+					"completed-time": 1580909822,
+					"messages": [
+					]
+				},
+				"http": {
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/6230EEC0.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Shiranu-Zonzenu-Yoi-Odore-shiranu-01-MRM.jpg",
+					"uri": "https:\/\/i4.myreadingmanga.info\/images\/2019\/12\/11\/Shiranu-Zonzenu-Yoi-Odore-shiranu-01-MRM.jpg",
+					"file": "Shiranu-Zonzenu-Yoi-Odore-shiranu-01-MRM.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/Shiranu-Zonzenu-Yoi-Odore-shiranu-01-MRM.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/Shiranu-Zonzenu-Yoi-Odore-shiranu-01-MRM.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 95622,
+					"total": 95622,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1580646605,
+					"completed-time": 1580646607,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "hoa-toc-ve-cho-hoc-sinh-nghi-hoc-do-dich-benh-viem-duong-ho-hap-cap-do-chung-mo-c39844-64036.aspx",
+					"uri": "http:\/\/edu.hochiminhcity.gov.vn\/thong-bao\/hoa-toc-ve-cho-hoc-sinh-nghi-hoc-do-dich-benh-viem-duong-ho-hap-cap-do-chung-mo-c39844-64036.aspx",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/hoa-toc-ve-cho-hoc-sinh-nghi-hoc-do-dich-benh-viem-duong-ho-hap-cap-do-chung-mo-c39844-64036.aspx",
+							"type": 0,
+							"state": 0,
+							"total": 95622,
+							"complete": 95622
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/hoa-toc-ve-cho-hoc-sinh-nghi-hoc-do-dich-benh-viem-duong-ho-hap-cap-do-chung-mo-c39844-64036.aspx.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+
