@@ -1,0 +1,111 @@
+#
+# system hotkeys
+#
+
+# application menu
+super + space
+    ~/.config/polybar/scripts/colors_application.sh
+
+# terminal emulator
+super + Return
+	alacritty
+
+# lockscreen
+super + l
+    light-locker-command -l
+
+# logout dialog
+ctrl + alt + Del
+	xfce4-session-logout
+
+#
+# media hotkeys
+# 
+
+super + alt + {Left,@space,Right}
+    playerctl --player=spotify,vlc {previous,play-pause,next}
+
+#
+# screenshooter
+#
+
+super + Print
+    flameshot full -c -p ~/Downloads/Photos
+
+Print
+    flameshot full -c
+
+super + shift + s
+    flameshot gui -c -p ~/Downloads/Photos
+
+###########################
+# sxhkd hotkeys
+###########################
+
+# load this help menu
+super + F1
+	sxhkd_help
+
+# make sxhkd reload its configuration files
+super + Escape
+	pkill -USR1 -x sxhkd
+
+###########################
+# bspwm hotkeys
+###########################
+
+# quit/restart bspwm
+alt + {q,Escape}
+	bspc {quit,wm -r}
+
+# close window
+alt + F4
+	bspc node -c
+
+# move focused window to the next workspace and then switch to that workspace
+alt + shift + {Left,Right}
+	id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
+
+# === function keys ===
+
+# rotate windows
+shift + F1
+	bspc node @/ -R 90
+
+# circulate windows
+shift + F2
+	bspc node @/ -C forward
+
+# flip windows horizontal
+shift + F3
+	bspc node @/ -F horizontal
+
+# flip windows vertical
+shift + F4
+	bspc node @/ -F vertical
+
+# alternate between the tiled and monocle layout
+shift + F5
+	bspc desktop -l next
+
+# balance windows
+shift + F6
+	bspc node @/ -B
+
+# Change window gap
+shift + {F7,F8}
+	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))
+
+# set the window state
+shift + {F9,F10,F11,F12}
+	bspc node -t {floating,tiled,pseudo_tiled,fullscreen}
+
+# === focus/swap ===
+
+# focus the next/previous node
+super + Tab
+	bspc node -f next.local.!above
+
+# focus the next/previous desktop
+super + {Left,Right}
+	bspc desktop -f {prev,next}
