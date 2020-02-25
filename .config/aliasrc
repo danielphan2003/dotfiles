@@ -1,0 +1,24 @@
+#!/bin/sh
+alias \
+	bat="cat /sys/class/power_supply/BAT?/capacity" \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -v" \
+	mkd="mkdir -pv" \
+	yt="youtube-dl --add-metadata -i" \
+	yta="yt -x -f bestaudio/best" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible
+alias \
+    grep="grep --color=auto" \
+	diff="diff --color=auto" \
+    ccat="highlight --out-format=ansi"
+alias \
+    ls='lsd' \
+    la='ls -a' \
+    lla='ls -la' \
+    lt='ls --tree' 
+
+# Manage your dotfiles
+alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
