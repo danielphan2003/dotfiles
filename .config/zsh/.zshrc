@@ -9,7 +9,7 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 
 HYPHEN_INSENSITIVE="true"
 
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 COMPLETION_WAITING_DOTS="true"
 
@@ -23,10 +23,6 @@ HIST_STAMPS="dd/mm/yyyy"
 HISTFILE=~/.cache/zsh/history
 
 # Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 plugins=(git)
