@@ -53,5 +53,6 @@ bspc rule -a pavucontrol state=floating
 bspc rule -a virtualbox state=floating
 
 ~/projects/bspi/bspi_listen &
+~/.config/polybar/launch.sh &
 
 notify-send -u low "bspwm loaded successfully"
