@@ -1,0 +1,6 @@
+#!/bin/sh
+
+CURRENT_VOLUME="$(pamixer --get-volume)"
+
+dunstify -r 2593 -u normal "Volume changed!" "Current: $CURRENT_VOLUME%" 2>/dev/null
+
