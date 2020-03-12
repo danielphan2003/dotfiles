@@ -1,0 +1,14 @@
+#!/bin/bash
+
+CM_LAUNCHER=rofi clipmenu -no-lazy-grab -show drun \
+-display-drun "Query " -drun-display-format "{name}" \
+-hide-scrollbar true \
+-bw 0 \
+-lines 8 \
+-line-padding 8 \
+-padding 20 \
+-width 30 \
+-location 0 \
+-columns 1 \
+-eh 2 \
+-font "Iosevka Nerd Font 11" 
