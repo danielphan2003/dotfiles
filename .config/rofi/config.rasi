@@ -1,0 +1,7 @@
+configuration {
+    theme: "~/.cache/wal/colors-rofi-dark.rasi";
+    show-icons: true;
+    icon-theme: "McMojave-circle-dark";
+    font: "Iosevka Nerd Font 12";
+}
+
