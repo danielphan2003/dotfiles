@@ -32,4 +32,7 @@ alias pacmatic='sudo --preserve-env=pacman_program /usr/bin/pacmatic'
 alias yay='pacman_program="sudo -u #$UID /usr/bin/yay --pacman powerpill" pacmatic'
 
 # Manage your dotfiles
-alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias \
+    dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
+    dots-add='dots add -f'
+
