@@ -50,6 +50,49 @@
 					"priority": 1
 				},
 				"log": {
+					"added-time": 1583168206,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "No URI to download.",
+							"type": 3,
+							"time": 1583168207
+						}
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "PriceSheet-2-3-23-56-42.png",
+					"uri": "blob:https:\/\/phongvu.vn\/44e79082-6bc1-48fa-b1ec-b09ae8289a57",
+					"file": "PriceSheet-2-3-23-56-42.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"log": {
 					"added-time": 1582189168,
 					"completed-time": 0,
 					"messages": [
@@ -81,6 +124,132 @@
 					"max-upload-speed": 0,
 					"max-download-speed": 0,
 					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 117020,
+					"total": 117020,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583646154,
+					"completed-time": 1583646156,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "88331242_1454565984704544_396703189711192064_o.jpg",
+					"uri": "https:\/\/scontent-hkt1-1.xx.fbcdn.net\/v\/t1.0-9\/p960x960\/88331242_1454565984704544_396703189711192064_o.jpg?_nc_cat=104&_nc_sid=ca434c&_nc_ohc=Rq_MGoNdMf8AX-t3jW4&_nc_ht=scontent-hkt1-1.xx&_nc_tp=6&oh=f446d7484a18c7522c119e19e3d72308&oe=5E9A1C39",
+					"file": "88331242_1454565984704544_396703189711192064_o.jpg",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/88331242_1454565984704544_396703189711192064_o.jpg",
+							"type": 0,
+							"state": 0,
+							"total": 117020,
+							"complete": 117020
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/88331242_1454565984704544_396703189711192064_o.jpg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 487405,
+					"total": 487405,
+					"elapsed": 3,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583429849,
+					"completed-time": 1583429852,
+					"messages": [
+					]
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "639c5035aa08d1b90651fc9783fc986bd0f1664cd00dc066715fe702990d0160.png",
+					"uri": "https:\/\/uploads.disquscdn.com\/images\/639c5035aa08d1b90651fc9783fc986bd0f1664cd00dc066715fe702990d0160.png?w=800&h=748",
+					"file": "639c5035aa08d1b90651fc9783fc986bd0f1664cd00dc066715fe702990d0160.png",
+					"folder": "\/home\/danie\/Downloads\/Photos",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/639c5035aa08d1b90651fc9783fc986bd0f1664cd00dc066715fe702990d0160.png",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Photos\/639c5035aa08d1b90651fc9783fc986bd0f1664cd00dc066715fe702990d0160.png.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
 				}
 			},
 			"children": [

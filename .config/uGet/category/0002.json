@@ -41,6 +41,344 @@
 		{
 			"info": {
 				"relation": {
+					"group": 3,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 9076736,
+					"total": 291905302,
+					"elapsed": 91,
+					"uploaded": 0,
+					"percent": 3
+				},
+				"log": {
+					"added-time": 1583246605,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/androidfilehost.com\/?fid=673368273298979955",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/451DCD2D.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"uri": "https:\/\/qc4.androidfilehost.com\/dl\/PkFOy5BMCeIQ9mlKCCCw6w\/1583476991\/673368273298979955\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"file": "lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 19,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 2443206769,
+					"total": 2443206769,
+					"elapsed": 582,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583195565,
+					"completed-time": 0,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.raspberrypi.org\/downloads\/noobs\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/6A240049.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "NOOBS_v3_3_1.zip.torrent",
+					"uri": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_v3_3_1.zip.torrent",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_v3_3_1.zip",
+							"type": 0,
+							"state": 0,
+							"total": 2443206769,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_v3_3_1.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_v3_3_1.zip.torrent",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_v3_3_1.zip.torrent.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 291905302,
+					"total": 291905302,
+					"elapsed": 392,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583498339,
+					"completed-time": 1583498732,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/androidfilehost.com\/?fid=673368273298979955",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/727CAF01.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"uri": "https:\/\/qc4.androidfilehost.com\/dl\/fBM0kRRh8ptKJyAtvHBw7A\/1583728729\/673368273298979955\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"file": "lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/lineage-14.1-20170819-UNOFFICIAL-kyleproxx.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 297731,
+					"total": 297731,
+					"elapsed": 5,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583246666,
+					"completed-time": 1583246672,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/opengapps.org\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/451DCD2D.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "open_gapps-arm-7.1-nano-20200303.zip",
+					"uri": "https:\/\/nchc.dl.sourceforge.net\/project\/opengapps\/arm\/20200303\/open_gapps-arm-7.1-nano-20200303.zip",
+					"file": "open_gapps-arm-7.1-nano-20200303.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-nano-20200303.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/open_gapps-arm-7.1-nano-20200303.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 39023549,
+					"total": 39023549,
+					"elapsed": 144,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583207343,
+					"completed-time": 1583207488,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.raspberrypi.org\/downloads\/noobs\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/17FE9562.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "NOOBS_lite_v3_3.zip",
+					"uri": "https:\/\/downloads.raspberrypi.org\/NOOBS_lite\/images\/NOOBS_lite-2020-02-07\/NOOBS_lite_v3_3.zip",
+					"file": "NOOBS_lite_v3_3.zip",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/ZIP",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_lite_v3_3.zip",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/ZIP\/NOOBS_lite_v3_3.zip.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
 					"group": 72,
 					"priority": 1
 				},

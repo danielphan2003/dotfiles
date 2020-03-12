@@ -39,6 +39,200 @@
 		}
 	},
 	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 803889418,
+					"total": 803889418,
+					"elapsed": 164,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583649356,
+					"completed-time": 1583649521,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/aur.archlinux.org\/packages\/android-studio\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/4E03C7CC.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "android-studio-ide-192.6200805-linux.tar.gz",
+					"uri": "https:\/\/dl.google.com\/dl\/android\/studio\/ide-zips\/3.6.0.21\/android-studio-ide-192.6200805-linux.tar.gz",
+					"file": "android-studio-ide-192.6200805-linux.tar.gz",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/Misc",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/android-studio-ide-192.6200805-linux.tar.gz",
+							"type": 0,
+							"state": 0,
+							"total": 803889418,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/android-studio-ide-192.6200805-linux.tar.gz.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 246,
+					"total": 246,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583569131,
+					"completed-time": 1583569132,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/192.168.1.1\/cgi-bin\/tools_config_backup.asp",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/2460F47B.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "stable_router_lacia_2020-3-7_15-18-19.cfg",
+					"uri": "https:\/\/192.168.1.1\/romfile\/romfile_2020-3-7_15-18-19.cfg",
+					"file": "stable_router_lacia_2020-3-7_15-18-19.cfg",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/Misc",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/stable_router_lacia_2020-3-7_15-18-19.cfg",
+							"type": 0,
+							"state": 0,
+							"total": 246,
+							"complete": 246
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/stable_router_lacia_2020-3-7_15-18-19.cfg.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 467365386,
+					"total": 467365386,
+					"elapsed": 552,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583499221,
+					"completed-time": 1583499773,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "http:\/\/tw.mirror.archlinuxarm.org\/os\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "ArchLinuxARM-rpi-4-latest.tar.gz",
+					"uri": "http:\/\/tw.mirror.archlinuxarm.org\/os\/ArchLinuxARM-rpi-4-latest.tar.gz",
+					"file": "ArchLinuxARM-rpi-4-latest.tar.gz",
+					"folder": "\/home\/danie\/Downloads\/Compressed\/Misc",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/ArchLinuxARM-rpi-4-latest.tar.gz",
+							"type": 0,
+							"state": 0,
+							"total": 467365386,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Compressed\/Misc\/ArchLinuxARM-rpi-4-latest.tar.gz.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
 	]
 }
 

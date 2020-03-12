@@ -45,6 +45,135 @@
 					"priority": 1
 				},
 				"progress": {
+					"complete": 130444707,
+					"total": 130444707,
+					"elapsed": 46,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583295791,
+					"completed-time": 1583295837,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/apkpure.com\/pi-sd-card-imager\/com.redrobe.raspicardimager\/download?from=details",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "Pi SD Card Imager_v1.07_apkpure.com.apk",
+					"uri": "https:\/\/d-08.winudf.com\/b\/apk\/Y29tLnJlZHJvYmUucmFzcGljYXJkaW1hZ2VyXzc4X2ZlODc0NDkx?_fn=UGkgU0QgQ2FyZCBJbWFnZXJfdjEuMDdfYXBrcHVyZS5jb20uYXBr&_p=Y29tLnJlZHJvYmUucmFzcGljYXJkaW1hZ2Vy&k=e6a7c7e50c6e49c89283ed7af506f12b5e607e34",
+					"file": "Pi SD Card Imager_v1.07_apkpure.com.apk",
+					"folder": "\/home\/danie\/Downloads\/APK",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/APK\/Pi SD Card Imager_v1.07_apkpure.com.apk",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/APK\/Pi SD Card Imager_v1.07_apkpure.com.apk.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 48486117,
+					"total": 48486117,
+					"elapsed": 12,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"log": {
+					"added-time": 1583208465,
+					"completed-time": 1583208478,
+					"messages": [
+					]
+				},
+				"http": {
+					"referrer": "https:\/\/www.apkmirror.com\/apk\/google-inc\/chrome\/chrome-80-0-3987-119-release\/google-chrome-fast-secure-80-0-3987-119-android-apk-download\/download\/",
+					"cookie-file": "\/home\/danie\/.config\/uGet\/attachment\/9B181DC.cookie",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "com.android.chrome_80.0.3987.119-398711900_minAPI19_maxAPI23(armeabi-v7a)(nodpi)_apkmirror.com.apk",
+					"uri": "https:\/\/www.apkmirror.com\/wp-content\/uploads\/2020\/02\/5e54e4fbb4fa1\/com.android.chrome_80.0.3987.119-398711900_minAPI19_maxAPI23(armeabi-v7a)(nodpi)_apkmirror.com.apk?verify=1583208146-4QepLcVX%2Bw2j0KeF6zLrDJAzwTODhne98iXfNMp890A%3D",
+					"file": "com.android.chrome_80.0.3987.119-398711900_minAPI19_maxAPI23(armeabi-v7a)(nodpi)_apkmirror.com.apk",
+					"folder": "\/home\/danie\/Downloads\/APK",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/APK\/com.android.chrome_80.0.3987.119-398711900_minAPI19_maxAPI23(armeabi-v7a)(nodpi)_apkmirror.com.apk",
+							"type": 0,
+							"state": 0,
+							"total": 48486117,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/APK\/com.android.chrome_80.0.3987.119-398711900_minAPI19_maxAPI23(armeabi-v7a)(nodpi)_apkmirror.com.apk.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
 					"complete": 48311439,
 					"total": 48311439,
 					"elapsed": 12,

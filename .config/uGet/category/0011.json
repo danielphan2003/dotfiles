@@ -54,6 +54,75 @@
 		{
 			"info": {
 				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 0,
+					"total": 0,
+					"elapsed": 1,
+					"uploaded": 0,
+					"percent": 0
+				},
+				"log": {
+					"added-time": 1583028388,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "aria2: HTTP response header was bad or unexpected.",
+							"type": 3,
+							"time": 1583028389
+						}
+					]
+				},
+				"http": {
+					"referrer": "http:\/\/192.168.1.2:2112\/",
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"common": {
+					"name": "id_rsa",
+					"uri": "http:\/\/192.168.1.2:2112\/service\/file?path=%2Fid_rsa&attach=1&base=0&a=eeYjp5R%2FgHHHqPuckumkKwDdFoN%2F6hknLGr9c7FymWM%3D",
+					"file": "id_rsa",
+					"folder": "\/home\/danie\/Downloads\/Code",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/id_rsa",
+							"type": 0,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						},
+						{
+							"path": "\/home\/danie\/Downloads\/Code\/id_rsa.aria2",
+							"type": 3,
+							"state": 0,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
 					"group": 72,
 					"priority": 1
 				},
