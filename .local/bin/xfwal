@@ -1,0 +1,5 @@
+#!/bin/sh
+
+wal -i "$@"
+xfconf-query -c xfce4-desktop -p /backdrop/screen0/monitorHDMI-A-0/workspace0/last-image -s $(< "${HOME}/.cache/wal/wal")
+
