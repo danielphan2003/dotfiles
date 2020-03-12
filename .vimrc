@@ -21,6 +21,11 @@ if exists('+termguicolors')
 endif
 
 "
+" Custom syntax
+"
+au BufNewFile,BufRead /*.rasi setf css
+
+"
 " vim-airline
 "
 let g:airline_theme='onedark'
@@ -62,6 +67,11 @@ let g:syntastic_check_on_wq = 0
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+"
+" Commentary
+"
+autocmd FileType apache setlocal commentstring=#\ %s
 
 "
 " Keymap
