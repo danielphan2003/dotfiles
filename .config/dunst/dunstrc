@@ -19,7 +19,7 @@
     horizontal_padding = 10
 
     frame_width = 1
-    frame_color = "#1c1c20"
+    frame_color = "#113f37"
 
     separator_color = frame
 
@@ -35,7 +35,7 @@
 
     markup = full
 
-    format = "<span foreground='#7B9BA4'><b>%s %p</b></span>\n%b"
+    format = "<span foreground='#D0AD9F'><b>%s %p</b></span>\n%b"
 
     alignment = left
 
@@ -124,23 +124,23 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#1c1c20"
-    foreground = "#969394"
+    background = "#113f37"
+    foreground = "#ABC8B7"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_normal]
-    background = "#1c1c20"
-    foreground = "#969394"
+    background = "#113f37"
+    foreground = "#ABC8B7"
     timeout = 10
     # Icon for notifications with normal urgency, uncomment to enable
     #icon = /path/to/icon
 
 [urgency_critical]
-    background = "#1c1c20"
-    foreground = "#969394"
-    frame_color = "#1c1c20"
+    background = "#113f37"
+    foreground = "#ABC8B7"
+    frame_color = "#113f37"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     icon = /usr/share/icons/McMojave-circle-dark/status/16/ialog-warning-symbolic.symbolic.png
