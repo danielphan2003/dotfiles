@@ -4,7 +4,7 @@
 
 # application menu
 super + space
-    ~/.config/polybar/scripts/colors_application.sh
+    rofi-appsmenu
 
 # terminal emulator
 super + Return
@@ -14,16 +14,26 @@ super + Return
 super + l
     light-locker-command -l
 
-# logout dialog
-ctrl + alt + Del
-	xfce4-session-logout
+# clipboard manager
+super + v
+    ~/.local/bin/clip_gui
 
+# quick calculator
+super + c
+    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo '{result}' | xclip"
+
+# logout dialog
+ctrl + alt + Delete
+	rofi-power
 #
 # media hotkeys
-# 
+#
 
 super + alt + {Left,@space,Right}
     playerctl --player=spotify,vlc {previous,play-pause,next}
+
+super + alt + {Up,Down}
+    pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volume_notify
 
 #
 # screenshooter
@@ -36,7 +46,16 @@ Print
     flameshot full -c
 
 super + shift + s
-    flameshot gui -c -p ~/Downloads/Photos
+    flameshot gui -p ~/Downloads/Photos
+
+#
+# EMOJIS!!!
+#
+super + comma
+    ~/.local/bin/kaomoji
+
+super + period
+    rofimoji
 
 ###########################
 # sxhkd hotkeys
