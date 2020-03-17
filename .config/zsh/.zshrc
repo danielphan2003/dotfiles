@@ -1,55 +1,58 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block, everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+_comp_options+=(globdots)		# Include hidden files.
+# Source Prezto.
+if [[ -s "$HOME/.zprezto/init.zsh" ]]; then
+  source "$HOME/.zprezto/init.zsh"
 fi
 
-ZSH_THEME=powerlevel10k/powerlevel10k
+# Kumaran's custom config.
 
-HYPHEN_INSENSITIVE="true"
+############################ IMPORTANT ########################
 
-ENABLE_CORRECTION="false"
+# Enviroment variables needed for .zshrc to function properly are defined in .zshenv (for eg: $DOTDIR)
+# sourcing .zshenv is a required dependency for .zshrc . The shell automatically sources .zshenv. Look at README.md for more info
+# Do not delete existing variables in .zshenv . It will break your shell.
 
-COMPLETION_WAITING_DOTS="true"
+#################### SOURCE ALL "*.zsh" files #########################
 
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-HISTSIZE=10000
-SAVEHIST=10000
-HIST_STAMPS="dd/mm/yyyy"
-HISTFILE=~/.cache/zsh/history
+# all of our zsh files
+typeset -U config_files
+config_files=($XDG_CONFIG_HOME/**/*.zsh)
 
-# Basic auto/tab complete:
-_comp_options+=(globdots)		# Include hidden files.
+# load the env files first
+for file in ${(M)config_files:#*/env.zsh}
+do
+  source $file
+done
 
-plugins=(git)
+# load the path files
+for file in ${(M)config_files:#*/path.zsh}
+do
+  source $file
+done
 
-source $ZSH/oh-my-zsh.sh
+# load everything but the path, env, completion files
+for file in ${${${config_files:#*/path.zsh}:#*/completion.zsh}:#*env.zsh}
+do
+  source $file
+done
 
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+# initialize autocomplete here, otherwise functions won't be loaded
+# autoload -U compinit
+# compinit
 
-source /usr/share/nvm/init-nvm.sh
+# load every completion after autocomplete loads
+for file in ${(M)config_files:#*/completion.zsh}
+do
+  source $file
+done
 
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
+unset config_files
 
-# Load aliases and shortcuts if existent.
-[ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
-[ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
-
-source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
-
-eval $(keychain --eval --quiet --noask id_ed25519 id_rsa ~/.ssh/id_rsa_pi)
-
-# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+######################### END SOURCE #############################
