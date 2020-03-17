@@ -1,0 +1,51 @@
+prompt_order = [
+  "time",
+  "directory",
+  "cmd_duration",
+  "jobs",
+  "kubernetes",
+  "git_branch",
+  "git_commit",
+  "git_state",
+  "git_status",
+  "hg_branch",
+  "package",
+  "dotnet",
+  "elixir",
+  "elm",
+  "golang",
+  "haskell",
+  "java",
+  "nodejs",
+  "php",
+  "python",
+  "ruby",
+  "rust",
+  "terraform",
+  "nix_shell",
+  "conda",
+  "memory_usage",
+  "aws",
+  "env_var",
+  "crystal",
+  "line_break",
+  "battery",
+  "character",
+]
+
+[time]
+disabled = false
+format = "%T"
+
+[hostname]
+ssh_only = false
+prefix = "⟪ "
+suffix = " ⟫"
+trim_at = ".home"
+disabled = false
+
+[character]
+symbol = "➜"
+error_symbol = "✗"
+use_symbol_for_status = true
+
