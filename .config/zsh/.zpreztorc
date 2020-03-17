@@ -1,6 +1,11 @@
 # Color output (auto set to 'no' on dumb terminals).
 zstyle ':prezto:*:*' color 'yes'
 
+zstyle ':notify:*' error-icon "https://media3.giphy.com/media/10ECejNtM1GyRy/200_s.gif"
+zstyle ':notify:*' error-title "wow such #fail"
+zstyle ':notify:*' success-icon "https://s-media-cache-ak0.pinimg.com/564x/b5/5a/18/b55a1805f5650495a74202279036ecd2.jpg"
+zstyle ':notify:*' success-title "very #success. wow"
+
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
@@ -21,16 +26,6 @@ zstyle ':prezto:load' pmodule \
   'z.lua' \
   'you-should-use' \
   'autosuggestions' 
-
-#'contrib-prompt' \
-#
-#'prompt' \
-# notify
-#
-zstyle ':notify:*' error-icon "https://media3.giphy.com/media/10ECejNtM1GyRy/200_s.gif"
-zstyle ':notify:*' error-title "wow such #fail"
-zstyle ':notify:*' success-icon "https://s-media-cache-ak0.pinimg.com/564x/b5/5a/18/b55a1805f5650495a74202279036ecd2.jpg"
-zstyle ':notify:*' success-title "very #success. wow"
 
 zstyle ':prezto:module:utility' correct 'no'
 
