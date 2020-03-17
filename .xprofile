@@ -1,17 +1,16 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 # This file runs when a DM logs you into a graphical session.
 # If you use startx/xinit like a Chad, this file will also be sourced.
 
 remaps &                # run the remaps script, switching caps/esc and more; check it for more info
 sxhkd &                 # keyboard shortcuts
-clipmenud &             # clipboard manager
 ibus-daemon -drx        # ibus for input method
 picom &               # compton for transparency
 ~/.fehbg &              # feh for wallpaper
 $HOME/projects/polybar-spotify-controls/scripts/spotify/launchlistener.sh & 
                         # launch Spotify listener
 bspwm &                 # window manager
-#$HOME/.config/polybar/launch.sh &         
+$HOME/.config/polybar/launch.sh &
                         # launch polybar
 dunst &                 # dunst for notifications
 xset r rate 300 50 &    # Speed xrate up
@@ -23,4 +22,3 @@ pulseaudio-dlna &       # DLNA support for pulseaudio
 ipfs daemon &           # ipfs for decentralized web
 uget-integrator &       # download manager
 wal -R &                 # reload wal configuration 
-
