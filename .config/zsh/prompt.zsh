@@ -21,6 +21,12 @@ HISTFILE=~/.cache/zsh/history
 
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
   eval $(keychain --eval --quiet --noask id_ed25519 id_rsa ~/.ssh/id_rsa_pi ~/.ssh/id_rsa_danie)
-fi
+else
+  _evalcache keychain --eval --quiet --noask id_ed25519 id_rsa ~/.ssh/id_rsa_pi ~/.ssh/id_rsa_danie
+  if [ "$(< /proc/$SSH_AGENT_PID/comm)" != "ssh-agent" ]; then
+    rm "${ZSH_EVALCACHE_DIR:-$HOME/.zsh-evalcache}/init-keychain.sh"
+    _evalcache keychain --eval --quiet --noask id_ed25519 id_rsa ~/.ssh/id_rsa_pi ~/.ssh/id_rsa_danie
+  fi
+fi 2>/dev/null
 
 ######################### END SOURCE #############################
