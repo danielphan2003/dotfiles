@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # xinitrc runs automatically when you run startx.
 
@@ -14,4 +14,4 @@ keychain ~/.ssh/id_ecdsa
 
 [ -f ~/.xprofile ] && . ~/.xprofile 2>/dev/null
 
-exec startxfce4
+# exec startxfce4
