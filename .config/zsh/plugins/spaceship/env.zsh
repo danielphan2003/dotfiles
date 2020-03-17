@@ -1,0 +1,2 @@
+export SPACESHIP_EXIT_CODE_SHOW=true
+export SPACESHIP_TIME_SHOW=true
