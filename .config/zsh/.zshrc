@@ -55,4 +55,6 @@ done
 
 unset config_files
 
+eval $(starship init zsh)
+
 ######################### END SOURCE #############################
