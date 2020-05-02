@@ -1,12 +1,13 @@
 # <device> <dir> <type> <options> <dump> <fsck>
-UUID=2F3E-3360 /boot vfat defaults,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 2
+UUID=3DEC-A8D6 /boot vfat defaults,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 2
 /dev/mapper/swap none swap defaults 0 0
-/dev/mapper/root / ext4 defaults,noatime,data=ordered 0 1
+/dev/mapper/root / ext4 defaults,noatime,data=ordered,commit=60 0 1
 tmpfs /tmp tmpfs size=4G 0 0
 
 # Dan's hard drive
-#UUID=5BCEB03F5049CCF1	/mnt/dan	ntfs-3g		defaults,auto,user,permissions,noatime   0   0
-UUID=5BCEB03F5049CCF1	/mnt/dan	ntfs-3g		defaults,uid=1000,gid=1000,fmask=137,dmask=027,noatime,noauto,x-systemd.automount   0   0
+UUID=5BCEB03F5049CCF1  /mnt/dan    ntfs-3g     rw,uid=1000,gid=1000,noatime,noauto,x-systemd.automount   0   0
+#UUID=5BCEB03F5049CCF1   /mnt/dan    ntfs-3g     uid=1000,gid=1000,fmask=137,dmask=027,noatime,noauto,x-systemd.automount   0   0
+
 # cubum's hard drive
-#UUID=6E429A133135EDF4	/mnt/cubum	ntfs-3g		rw,auto,user,permissions,noatime   0   0
-UUID=6E429A133135EDF4	/mnt/cubum	ntfs-3g		defaults,uid=1000,gid=1000,fmask=137,dmask=027,noatime,noauto,x-systemd.automount   0   0
+UUID=6E429A133135EDF4  /mnt/cubum  ntfs-3g     rw,uid=1000,gid=1000,noatime,noauto,x-systemd.automount   0   0
+#UUID=6E429A133135EDF4   /mnt/cubum  ntfs-3g     uid=1000,gid=1000,fmask=137,dmask=027,noatime,noauto,x-systemd.automount   0   0
