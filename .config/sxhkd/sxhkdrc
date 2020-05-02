@@ -2,60 +2,80 @@
 # system hotkeys
 #
 
+# htop
+XF867TaskPane
+  htop
+
+# power off
+XF86PowerOff
+  [ $(printf "No\nYes" | \
+    dmenu -i \
+      -nb darkred \
+      -sb red \
+      -sf white \
+      -nf gray \
+    -p "Shutdown computer?") = "Yes" ] && sudo -A halt
+
 # application menu
 super + space
-    rofi-appsmenu
+  rofi-appsmenu
 
 # terminal emulator
 super + Return
-	alacritty
+# XF86_DOS
+  alacritty
 
 # lockscreen
-super + l
-    light-locker-command -l
+super + shift + l
+# XF86_ScreenSaver
+  light-locker-command -l
 
 # clipboard manager
 super + v
-    ~/.local/bin/clip_gui
+  ~/.local/bin/clip_gui && xdotool key --window $current_wid --clearmodifiers ctrl+v
 
 # quick calculator
 super + c
-    rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo '{result}' | xclip"
+# XF86_Calculator
+  rofi -show calc -modi calc -no-show-match -no-sort -calc-command "echo '{result}' | xclip"
+
+super + d
+  bwmenu -- -location 2
 
 # logout dialog
 ctrl + alt + Delete
-	rofi-power
+  rofi-power
 #
 # media hotkeys
 #
 
 super + alt + {Left,@space,Right}
-    playerctl --player=spotify,vlc {previous,play-pause,next}
+  playerctl --player=spotify,vlc {previous,play-pause,next}
 
 super + alt + {Up,Down}
-    pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volume_notify
+  pactl set-sink-volume @DEFAULT_SINK@ {+,-}2% && volume_notify
 
 #
 # screenshooter
 #
 
 super + Print
-    flameshot full -c -p ~/Downloads/Photos
+  flameshot full -c -p ~/Downloads/Photos
 
 Print
-    flameshot full -c
+  flameshot full -c
 
 super + shift + s
-    flameshot gui -p ~/Downloads/Photos
+  flameshot gui -p ~/Downloads/Photos
 
 #
 # EMOJIS!!!
 #
 super + comma
-    ~/.local/bin/kaomoji
+  ~/.local/bin/kaomoji
 
 super + period
-    rofimoji
+  rofimoji && xdotool key --window $current_wid --clearmodifiers ctrl+v
 
 ###########################
 # sxhkd hotkeys
@@ -63,68 +83,87 @@ super + period
 
 # load this help menu
 super + F1
-	sxhkd_help
+  sxhkd_help
 
 # make sxhkd reload its configuration files
 super + Escape
-	pkill -USR1 -x sxhkd
+  pkill -USR1 -x sxhkd
 
 ###########################
 # bspwm hotkeys
 ###########################
-
-# quit/restart bspwm
-alt + {q,Escape}
-	bspc {quit,wm -r}
-
-# close window
-alt + F4
-	bspc node -c
-
-# move focused window to the next workspace and then switch to that workspace
-alt + shift + {Left,Right}
-	id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
-
-# === function keys ===
-
-# rotate windows
-shift + F1
-	bspc node @/ -R 90
-
-# circulate windows
-shift + F2
-	bspc node @/ -C forward
-
-# flip windows horizontal
-shift + F3
-	bspc node @/ -F horizontal
-
-# flip windows vertical
-shift + F4
-	bspc node @/ -F vertical
-
-# alternate between the tiled and monocle layout
-shift + F5
-	bspc desktop -l next
-
-# balance windows
-shift + F6
-	bspc node @/ -B
-
-# Change window gap
-shift + {F7,F8}
-	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))
-
-# set the window state
-shift + {F9,F10,F11,F12}
-	bspc node -t {floating,tiled,pseudo_tiled,fullscreen}
-
-# === focus/swap ===
-
-# focus the next/previous node
-super + Tab
-	bspc node -f next.local.!above
-
-# focus the next/previous desktop
-super + {Left,Right}
-	bspc desktop -f {prev,next}
+# # quit/restart bspwm
+# alt + {q,Escape}
+#   bspc {quit,wm -r}
+#
+# # close window
+# alt + F4
+#   bspc node -c
+#
+# # move focused window to the next workspace and then switch to that workspace
+# super + shift + {Left,Right}
+#   id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}
+#
+# # === function keys ===
+#
+# # rotate windows
+# shift + F1
+#   bspc node @/ -R 90
+#
+# # circulate windows
+# shift + F2
+#   bspc node @/ -C forward
+#
+# # flip windows horizontal
+# shift + {F3,F4}
+#   bspc node @/ -F {horizontal,vertical}
+#
+# # alternate between the tiled and monocle layout
+# shift + F5
+#   bspc desktop -l next
+#
+# # balance windows
+# shift + F6
+#   bspc node @/ -B
+#
+# # Change window gap
+# shift + {F7,F8}
+#   bspc config -d focused window_gap $((`bspc config -d focused window_gap` {+,-} 2 ))
+#
+# # swap the current node and the biggest node
+# super + z
+#   bspc node -s biggest
+#
+# # set the window state
+# shift + {F9,F10,F11,F12}
+#   bspc node -t {floating,tiled,pseudo_tiled,fullscreen}
+#
+# # set the node flags
+# ctrl + shift + {F9,F10,F11,F12}
+#   bspc node -g {marked,locked,sticky,private}
+#
+# # focus the next/previous node in the current desktop
+# super + {j,k}
+#   bspc node -f {next,prev}.local
+#
+# # expand a window by moving one of its side outward
+# super + h
+#   bspc node -z left -20 0 || bspc node -z right -20 0
+#
+# super + l
+#   bspc node -z left 20 0 || bspc node -z right 20 0
+#
+# # === focus/swap ===
+#
+# # focus the next/previous node
+# super + Tab
+#   bspc node -f last
+#
+# super + {1-9}
+#   bspc desktop -f '^{1-9}'
+#
+# # focus the next/previous desktop
+# super + {Left,Right}
+#   bspc desktop -f {prev,next}
+# super + {g,semicolon}
+#   bspc desktop -f {prev,next}
