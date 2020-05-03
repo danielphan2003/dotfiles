@@ -25,3 +25,4 @@ pulseaudio-dlna &       # DLNA support for pulseaudio
 uget-integrator &       # download manager
 sxhkd &                 # keyboard shortcuts
 xfce4-clipman &         # clipboard manager
+flameshot &             # screenshot tools
